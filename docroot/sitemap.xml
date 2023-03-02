@@ -1,0 +1,16 @@
+<xml>
+  <page>
+    <title>Article Number 1</title>
+    <sort>1</sort>
+    <content>
+      <![CDATA[<h1>Some Article Headline</h1><p>Some article body text</p>]]>
+    </content>
+  </page>
+  <page>
+    <title>Article Number 2</title>
+    <sort>2</sort>
+    <content>
+      <![CDATA[<h1>Another Article Headline</h1><p>Another article body text</p>]]>
+    </content>
+  </page>  
+</xml>
