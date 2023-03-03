@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
       xmlSort.sort(function(a,b){
          a = $(a).find('sort').text();            
          b = $(b).find('sort').text();            
-         return (a.localCompare(b));
+         return (a.localeCompare(b));
       });
       
       var title, sort, desc, content, path;
