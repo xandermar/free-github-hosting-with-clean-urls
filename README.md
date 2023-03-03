@@ -12,5 +12,5 @@ TODOs:
 8. Create "LIST" view and "DETAIL" view scripts in our jQuery
 9. Update the XML 'page' path (to be used for our dynamic page path)
 10. Add a 'desc' tag to the XML datasheet
-11. In index.html, add a 'list-view' div tag
-12. In subpage (404.html), add a 'detail-view' div tag
+11. In index.html, add a 'list-view' section tag
+12. In subpage (404.html), add a 'detail-view' section tag
