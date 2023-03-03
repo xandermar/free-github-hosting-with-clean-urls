@@ -25,24 +25,24 @@ jQuery(document).ready(function($){
         path = $(this).find('path').text();
         
         //builds the 'list-view'
-        $('#list-view).append(`
+        $('#list-view).append('
           <div class="row">
             <div class="col-12">
-              <h2><a href="`+path+`">`+title+`</a></h2>
-              <div class="desc">`+desc+`</div>
-            </div>
-          </div>
-          `);
-        
-        //builds the 'detail-view'
-        $('#detail-view).append(`
-          <div class="row">
-            <div class="col-12">
-              <h2>`+title+`</h2>
-              <div class="content">`+content+`</div>
+              <h2><a href="'+path+'">'+title+'</a></h2>
+              <div class="desc">'+desc+'</div>
             </div>
           </div>          
-          `);
+          ');
+        
+        //builds the 'detail-view'
+        $('#detail-view).append('
+          <div class="row">
+            <div class="col-12">
+              <h2>'+title+'</h2>
+              <div class="content">'+content+'</div>
+            </div>
+          </div>           
+          ');
         
         
       });
