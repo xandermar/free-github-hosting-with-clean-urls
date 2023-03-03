@@ -28,7 +28,7 @@ jQuery(document).ready(function($){
         $('#list-view > .container').append(`
           <div class="row">
             <div class="col-12">
-              <h2><a href="`+path+`">`+title+`</a></h2>
+              <h2><a href="https://xandermar.github.io/free-github-hosting-with-clean-urls`+path+`">`+title+`</a></h2>
               <div class="desc">`+desc+`</div>
             </div>
           </div>          
