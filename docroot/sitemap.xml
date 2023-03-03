@@ -1,12 +1,16 @@
 <xml>
   <page>
     <title>Article Number 1</title>
+    <desc>This is a description of Article 1</desc>
     <sort>1</sort>
-    <content>content here</content>
+    <content>article 1 content here</content>
+    <path>/article-number-1</path>
   </page>
   <page>
     <title>Article Number 2</title>
+    <desc>This is a description of Article 2</desc>
     <sort>2</sort>
-    <content>content here</content>
+    <content>article 2 content here</content>
+    <path>/article-number-1</path>
   </page>  
 </xml>
