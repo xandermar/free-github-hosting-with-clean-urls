@@ -10,7 +10,7 @@ TODOs:
 6. Modify the Bootstrap 5 HTML template to show a 'stage' (layout) for your project
 7. Create a 404.html page
 8. Create "LIST" view and "DETAIL" view scripts in our jQuery
-9. Update the XML 'page' path (to be used for our dynamic page path)
+9. Update the XML 'page' path (to be used for our dynamic page path) - path will be our content identifier!!
 10. Add a 'desc' tag to the XML datasheet
 11. In index.html, add a 'list-view' section tag
 12. In subpage (404.html), add a 'detail-view' section tag
