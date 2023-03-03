@@ -11,3 +11,4 @@ TODOs:
 7. Create a 404.html page
 8. Create "LIST" view and "DETAIL" view scripts in our jQuery
 9. Update the XML 'page' path (to be used for our dynamic page path)
+10. Add a 'desc' tag to the XML datasheet
