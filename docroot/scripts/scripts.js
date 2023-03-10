@@ -30,6 +30,9 @@ jQuery(document).ready(function($){
         desc = $(this).find('desc').text();
         content = $(this).find('content').text();
         path = $(this).find('path').text();
+        if(window.location.host=='xandermar.github.io'){
+          path = '/free-github-hosting-with-clean-urls'+path;
+        }
         
         //builds the 'list-view'
         $('#list-view > .container').append(`
