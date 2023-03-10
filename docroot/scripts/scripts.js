@@ -65,9 +65,8 @@ jQuery(document).ready(function($){
               </div>
             </div>         
           `);
-          exit 0;
         }
-
+        return false;
         
         
       });
