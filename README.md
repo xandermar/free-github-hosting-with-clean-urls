@@ -14,3 +14,4 @@ TODOs:
 10. Add a 'desc' tag to the XML datasheet
 11. In index.html, add a 'list-view' section tag
 12. In subpage (404.html), add a 'detail-view' section tag
+13. Subpage (404.html) - setup dynamic page
