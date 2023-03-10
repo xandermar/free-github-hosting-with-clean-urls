@@ -57,6 +57,15 @@ jQuery(document).ready(function($){
               </div>
             </div>         
           `);          
+        } else {
+          // if no node matches, we need a 'page not found'
+          $('#detail-view > .container').append(`
+            <div class="row">
+              <div class="col-12">
+                <div class="content">Page not found</div>
+              </div>
+            </div>         
+          `);
         }
 
         
