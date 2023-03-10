@@ -44,6 +44,7 @@ jQuery(document).ready(function($){
         //builds the 'detail-view'
         //select the node that matches the current path
         var currentPath = getPagePath();
+        console.log('path='+path+'; currPath='+currentPath);
         if( path == currentPath ){
           $('#detail-view > .container').append(`
             <div class="row">
