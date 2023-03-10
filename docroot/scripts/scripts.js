@@ -43,14 +43,18 @@ jQuery(document).ready(function($){
         
         //builds the 'detail-view'
         //select the node that matches the current path
-        $('#detail-view > .container').append(`
-          <div class="row">
-            <div class="col-12">
-              <h2>`+title+'==> '+getPagePath()+`</h2>
-              <div class="content">`+content+`</div>
-            </div>
-          </div>         
-        `);
+        var currentPath = getPagePath();
+        if( path == currentPath ){
+          $('#detail-view > .container').append(`
+            <div class="row">
+              <div class="col-12">
+                <h2>`+title+'==> '+getPagePath()+`</h2>
+                <div class="content">`+content+`</div>
+              </div>
+            </div>         
+          `);          
+        }
+
         
         
       });
