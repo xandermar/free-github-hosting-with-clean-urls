@@ -2,6 +2,13 @@
 
 
 jQuery(document).ready(function($){
+  
+  // get the path of the current page
+  function getPagePath(){
+    var path = window.location.pathname+window.location.search;
+    return path;
+  }
+  
   $.ajax({
     type: "GET",
     url: "https://xandermar.github.io/free-github-hosting-with-clean-urls/sitemap.xml",
